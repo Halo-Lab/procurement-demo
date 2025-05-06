@@ -1,0 +1,12 @@
+export function Icon1() {
+  return (
+<svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 22.5C0 10.3497 9.84974 0.5 22 0.5C34.1503 0.5 44 10.3497 44 22.5C44 34.6503 34.1503 44.5 22 44.5C9.84974 44.5 0 34.6503 0 22.5Z" fill="#0069FE" fillOpacity="0.06"/>
+<path d="M30 22.5V16.2485C30 16.0894 29.9368 15.9368 29.8243 15.8243L26.6757 12.6757C26.5632 12.5632 26.4106 12.5 26.2515 12.5H14.6C14.2686 12.5 14 12.7686 14 13.1V31.9C14 32.2314 14.2686 32.5 14.6 32.5H21" stroke="#0069FE" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M18 20.5H26M18 16.5H22M18 24.5H21" stroke="#0069FE" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M26.3056 27.6133L27.2147 25.6856C27.3314 25.4381 27.6686 25.4381 27.7853 25.6856L28.6944 27.6133L30.7275 27.9243C30.9884 27.9642 31.0923 28.2998 30.9035 28.4923L29.4326 29.9917L29.7797 32.11C29.8243 32.382 29.5515 32.5895 29.3181 32.461L27.5 31.4603L25.6819 32.461C25.4485 32.5895 25.1757 32.382 25.2203 32.11L25.5674 29.9917L24.0965 28.4923C23.9077 28.2998 24.0116 27.9642 24.2725 27.9243L26.3056 27.6133Z" stroke="#0069FE" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M26 12.5V15.9C26 16.2314 26.2686 16.5 26.6 16.5H30" stroke="#0069FE" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+
+  );
+}
