@@ -10,6 +10,7 @@ import { Prev } from './assets/icons/Prev';
 import { Next } from './assets/icons/Next';
 import { Download } from './assets/icons/Download';
 import { FileCheck } from './assets/icons/FileCheck';
+const BASE_PATH = '/procurement-demo';
 const suppliersData = [
   { name: 'APPL', value: 30 },
   { name: 'TH', value: 20 },
@@ -105,9 +106,8 @@ export default function Home() {
                 <div className="flex items-center justify-between w-full">
                   <div className="text-[#061120] font-medium text-[15px]">$1,200,000.00</div>
                   <div className="flex -space-x-2">
-                    <Image src="/avatar.jpg" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
-                    <Image src="/avatar2.png" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
-                    <Image src="/avatar2.png" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar.jpg`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar2.png`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
                   </div>
                 </div>
               </div>
@@ -126,8 +126,8 @@ export default function Home() {
                 <div className="flex items-center justify-between w-full">
                   <div className="text-[#061120] font-medium text-[15px]">$10,600,000.00</div>
                   <div className="flex -space-x-2">
-                    <Image src="/avatar.jpg" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
-                    <Image src="/avatar2.png" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                      <Image src={`${BASE_PATH}/avatar.jpg`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar2.png`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
                   </div>
                 </div>
               </div>
@@ -146,8 +146,8 @@ export default function Home() {
                 <div className="flex items-center justify-between w-full">
                   <div className="text-[#061120] font-medium text-[15px]">$100,000.00</div>
                   <div className="flex -space-x-2">
-                    <Image src="/avatar.jpg" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
-                    <Image src="/avatar2.png" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                        <Image src={`${BASE_PATH}/avatar.jpg`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar2.png`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
                   </div>
                 </div>
               </div>
@@ -166,8 +166,8 @@ export default function Home() {
                 <div className="flex items-center justify-between w-full">
                   <div className="text-[#061120] font-medium text-[15px]">$550,000.00</div>
                   <div className="flex -space-x-2">
-                    <Image src="/avatar.jpg" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
-                    <Image src="/avatar2.png" alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar.jpg`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
+                    <Image src={`${BASE_PATH}/avatar2.png`} alt="avatar" width={24} height={24} className="w-6 h-6 rounded-full" />
                   </div>
                 </div>
               </div>

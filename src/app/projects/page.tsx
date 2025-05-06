@@ -22,6 +22,7 @@ import { Minus } from '../assets/icons/Minus';
 import { Expand } from '../assets/icons/Expand';
 import { Pencil } from '../assets/icons/Pencil';
 import { Users } from '../assets/icons/Users';
+const BASE_PATH = '/procurement-demo';
 const workflowSteps = [
   {
     key: 'probity',
@@ -190,7 +191,7 @@ export default function ProjectsPage() {
               
               <span className="text-sm text[#3D4C62]">own by </span>          <div className="w-5 h-5 rounded-full bg-gray-200 overflow-hidden">
             <Image
-              src="/avatar.jpg"
+              src={`${BASE_PATH}/avatar.jpg`}
               alt="User profile"
               width={32}
               height={32}
@@ -263,7 +264,7 @@ export default function ProjectsPage() {
                     <div className={`font-medium text-md mb-3.5 ${step.status === 'Completed' ? 'text-[#737D8C]' : 'text-[#061120]'}`}>{step.title}</div>
                     <div className="text-sm font-medium text-[#616161] mb-2.5 flex items-center gap-2">
                       <div className={`flex items-center gap-2 font-medium text-[13px] ${step.status === 'Completed' ? 'text-[#737D8C]' : 'text-[#061120]'}`}>
-                        {step.assignee === 'All Team' ? <Users /> : <Image src="/avatar2.png" alt="User profile" width={20} height={20} className="w-5 h-5 object-cover rounded-full" />}
+                        {step.assignee === 'All Team' ? <Users /> : <Image src={`${BASE_PATH}/avatar2.png`} alt="User profile" width={20} height={20} className="w-5 h-5 object-cover rounded-full" />}
                         <span className="text-[#737D8C] font-normal">to</span> {step.assignee}</div>
                     </div>
                     <div className="flex items-center text-sm text-[#616161]">

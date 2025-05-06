@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { QuestionIcon } from '../assets/icons/QuestionIcon'
 import { CartIcon } from '../assets/icons/CartIcon'
+const BASE_PATH = '/procurement-demo';
 export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 h-13 bg-[#061120] border-b border-gray-200 flex items-center px-4 z-10">
@@ -50,7 +51,7 @@ export function Header() {
           </button>
           <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
             <Image
-              src="/avatar.jpg"
+              src={`${BASE_PATH}/avatar.jpg`}
               alt="User profile"
               width={32}
               height={32}
